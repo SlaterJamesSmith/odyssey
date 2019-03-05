@@ -30,13 +30,21 @@ module.exports = {
       },
 
       {
+           test: /\.css$/,
+           use: [
+             'style-loader',
+             'css-loader',
+           ]
+       },
+
+      {
         test:/\.html$/,
         use: [
           'html-loader'
         ]
       },
       {
-        test: /\.s?css$/,
+        test: /\.scss$/,
         use: [
             'style-loader',
             'css-loader',
