@@ -1,6 +1,8 @@
 body {
-  background-image: url(../images/background.jpg);
-  // background-size: cover;
+  // background-image: url(../images/background.jpg);
+  background-position: top;
+  background-size: cover;
+  background-color: grey;
   color: white;
   font-family: helvetica;
   max-width: 1200px;
@@ -11,8 +13,13 @@ body {
 }
 h1 {
   text-align: center;
-  margin-top: 50px;
+  margin-top: -350px;
   margin-bottom: 50px;
+}
+
+img {
+  display: flex;
+  margin-bottom: 10px;
 }
 
 p {
@@ -20,8 +27,8 @@ p {
 }
 
 .landing {
-  margin-top: 35vh;
-  margin-bottom: 35vh;
+  margin-top: 75px;
+  margin-bottom: 350px;;
 }
 .something {
   width: 100%;
@@ -72,3 +79,24 @@ p {
   top: 0em;
   animation: storyKey 4s ease-in-out forwards;
 };
+
+.greek {
+  display: none;
+}
+
+.e-button,
+.g-button {
+  display: flex;
+  background: 0;
+  border: 3px solid white;
+  color: white;
+  border-radius: 10px;
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.greek,
+.english {
+  
+}
