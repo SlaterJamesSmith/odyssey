@@ -1,4 +1,4 @@
-## Galactic Age Calculator
+## The Odyssey
 ---
 #### _Javascript practice, homework as assigned by Epicodus, 3/6/19_
 
