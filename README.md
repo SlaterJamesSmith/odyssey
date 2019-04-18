@@ -6,7 +6,7 @@
 
 ### Description
 
-A simple Javascript application to practice creating animations in javascript. This project shows the text of the ancient classic epic "The Odyssey", which will animate when the user interacts with their web browser.
+A simple Javascript application to practice creating animations in javascript. This project shows the text of the ancient classic epic "The Odyssey", which will animate when the user interacts with their web browser. For best performance, scroll down page slowly using your Chrom browser.
 
 #### Program behavior specifications:
 | Behavior | Input | Output |
@@ -24,6 +24,8 @@ A simple Javascript application to practice creating animations in javascript. T
 * npm
 
 ### Setup Instructions
+
+If you would like to skip cloning this project up on your local machine, visit https://slaterjamessmith.github.io/odyssey/
 
 1. Clone this repository at https://github.com/SlaterJamesSmith/odyssey
 2. Use a terminal of your choice to access the webpage and its files by inputting: "git clone {the above clone link}"
